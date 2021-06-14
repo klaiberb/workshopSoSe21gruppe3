@@ -1,2 +1,2 @@
-# workshopSoSe21
+# workshopSoSe21gruppe3
 
