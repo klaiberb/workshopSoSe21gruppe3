@@ -1,0 +1,6 @@
+{
+"Beschreibung":{"type":"string","stereotype":"primitive","label":"Beschreibung"},
+"Dokumentart":{"type":"DokumentartT","stereotype":"enumeration","classAlias":"DokumentartT0","label":"Dokumentart"},
+"Datei":{"type":"fileT","stereotype":"structure","group":"true","label":"fileT"},
+"_Impfpatient":{"type":"foreign","stereotype":"relation","class":"Impfpatient","classAlias":"Impfpatient","renderAs": {"edit": {"required": "true"},"new": {"required": "true"}}, "join": "INNER"}
+}

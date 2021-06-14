@@ -1,0 +1,4 @@
+{
+"Bezeichnung":{"type":"string","stereotype":"primitive","label":"Bezeichnung"},
+"Beschreibung":{"type":"string","stereotype":"primitive","label":"Beschreibung"}
+}

@@ -1,0 +1,7 @@
+{
+"Nachname":{"type":"string","stereotype":"primitive","label":"Nachname"},
+"Vorname":{"type":"string","stereotype":"primitive","label":"Vorname"},
+"Emailadresse":{"type":"string","stereotype":"primitive","label":"Emailadresse"},
+"Telefonnummer":{"type":"float","stereotype":"primitive","label":"Telefonnummer"},
+"Fachrichtung":{"type":"FachrichtungT","stereotype":"enumeration","classAlias":"FachrichtungT0","label":"Fachrichtung"}
+}

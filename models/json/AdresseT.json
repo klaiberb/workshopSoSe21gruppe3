@@ -1,0 +1,8 @@
+{
+"Nachname":{"type":"string","stereotype":"primitive","label":"Nachname"},
+"Vorname":{"type":"string","stereotype":"primitive","label":"Vorname"},
+"Straße":{"type":"string","stereotype":"primitive","label":"Straße"},
+"Hausnummer":{"type":"float","stereotype":"primitive","label":"Hausnummer"},
+"PLZ":{"type":"integer","stereotype":"primitive","label":"PLZ","renderAs": {"edit": {"maxlength": "5"},"new": {"maxlength": "5"}}},
+"Ort":{"type":"string","stereotype":"primitive","label":"Ort"}
+}

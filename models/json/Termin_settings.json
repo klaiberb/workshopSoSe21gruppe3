@@ -1,0 +1,4 @@
+{
+"identifier":"Concat(Auftrag.Bestelldatum,'(',Auftrag.Auftragsnummer,')')",
+"access":{"G1":{"join": "LEFT JOIN Position AS _Position ON _Position._Auftrag=Auftrag.Id ","group": "GROUP BY _Position._Auftrag"}, "G4": {"join": "LEFT JOIN Position AS _Position ON _Position._Auftrag=Auftrag.Id ","group": "GROUP BY _Position._Auftrag"}}
+}

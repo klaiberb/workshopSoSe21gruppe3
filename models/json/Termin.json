@@ -1,0 +1,7 @@
+{
+"Datum":{"type":"date","stereotype":"primitive","label":"Datum"},
+"Aussage":{"type":"AussageT","stereotype":"enumeration","classAlias":"AussageT0","label":"Aussage"},
+"_Impfpatient":{"type":"foreign","stereotype":"relation","class":"Impfpatient","classAlias":"Impfpatient","renderAs": {"edit": {"required": "true"},"new": {"required": "true"}}, "join": "INNER"},
+"_Impfstoff":{"type":"foreign","stereotype":"relation","class":"Impfstoff","classAlias":"Impfstoff"},
+"_Arzt":{"type":"foreign","stereotype":"relation","class":"Arzt","classAlias":"Arzt","renderAs": {"edit": {"required": "true"},"new": {"required": "true"}}, "join": "INNER"}
+}
