@@ -1,0 +1,4 @@
+{
+"Ersttermin":{"type":"date","stereotype":"primitive","label":"Ersttermin"},
+"Folgetermin":{"type":"date","stereotype":"primitive","label":"Folgetermin"}
+}

@@ -1,0 +1,7 @@
+{
+"Bezeichnung":{"type":"string","stereotype":"primitive","label":"Bezeichnung"},
+"Hersteller":{"type":"string","stereotype":"primitive","label":"Hersteller"},
+"Zulassungsdatum":{"type":"date","stereotype":"primitive","label":"Zulassungsdatum"},
+"Zulassungsstelle":{"type":"string","stereotype":"primitive","label":"Zulassungsstelle"},
+"_Impfstoffart":{"type":"foreign","stereotype":"relation","class":"Impfstoffart","classAlias":"Impfstoffart","renderAs": {"edit": {"required": "true"},"new": {"required": "true"}}, "join": "INNER"}
+}
